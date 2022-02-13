@@ -1,0 +1,65 @@
+@import "~antd/dist/antd.min.css";
+
+.ant-layout-sider {
+  height: 100vh;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+}
+
+.page-content {
+  background-color: white;
+  padding: 24px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+@media (min-width: 992px) {
+  .ant-page-header-back {
+    display: none;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.sidebar-brand {
+  color: white;
+  padding: 1rem;
+}
+
+.moneymap-nodeinfo-wrapper {
+  position: relative;
+  height: 0;
+  width: 0;
+}
+
+.moneymap-nodeinfo {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  min-width: 300px;
+  z-index: 1;
+}
